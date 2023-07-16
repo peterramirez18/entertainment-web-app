@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+  --space: 1rem;
+  --space-tablet: 1.5rem;
+  --space-desktop: 2rem;
+}
