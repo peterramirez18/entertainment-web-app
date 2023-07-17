@@ -1,8 +1,10 @@
-import React from 'react'
+import Searbar from "../components/Searbar"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <main>
+      <Searbar />
+    </main>
   )
 }
 

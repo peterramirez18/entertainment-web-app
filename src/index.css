@@ -8,3 +8,9 @@
   --space-tablet: 1.5rem;
   --space-desktop: 2rem;
 }
+
+.placeholder-searbar::placeholder,
+.placeholder-searbar {
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.52rem + 2.03vw, 1.5rem);
+}

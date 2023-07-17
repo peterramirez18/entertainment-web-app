@@ -8,12 +8,12 @@ import BookMarked from "./pages/BookMarked";
 function App() {
 
   return (
-    <div className=" bg-dark-blue text-white h-screen">
+    <div className=" bg-dark-blue text-white min-h-screen flex flex-col lg:flex-row md:pt-[24px] lg:py-[32px] h-auto">
       <BrowserRouter>
-        <header className="md:pt-[24px] lg:py-[32px] h-screen">
+        <header>
           <Sidebar />
         </header>
-        <main className=" mx-[--space] md:mx-[--space-tablet]">
+        <main className=" mt-[24px] mx-[--space] lg:ml-0 lg:mr-[--space-desktop] flex-1 ">
           <Routes>
             <Route>
               <Route path="/" element={<Home />} />
